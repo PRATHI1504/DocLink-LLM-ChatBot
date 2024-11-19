@@ -75,7 +75,7 @@ def summarize_chat_history(chat_history):
 def main():
     st.set_page_config(page_title='DocLink LLM bot 🌍')
 
-    st.title("'DocLink LLM bot 🤖")
+    st.title("DocLink LLM bot 🤖")
     with st.expander("Instructions to upload Text PDF/URL 📚"):
         st.write("1. Use the sidebar to upload a PDF or enter up to three URLs.")
         st.write("2. Click 'Process' to load documents and 'Create Vector Store' to build the knowledge base.")
