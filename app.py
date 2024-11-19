@@ -73,7 +73,7 @@ def summarize_chat_history(chat_history):
 
 # Main function to control the app
 def main():
-    st.set_page_config(page_title='FinAdvisor Chatbot 🌍')
+    st.set_page_config(page_title='DocLink LLM bot 🌍')
 
     st.title("FinAdvisor Chatbot 🤖")
     with st.expander("Instructions to upload Text PDF/URL 📚"):
